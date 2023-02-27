@@ -15,13 +15,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{AA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{17AEA328-0B0C-4B0E-B64F-60E3A88F631D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankPortfolio.Core.Domain", "BankPortfolio.Core.Domain\BankPortfolio.Core.Domain.csproj", "{A9A08A74-4B7F-41D0-8581-79401CF25169}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankPortfolio.Core.Domain", "BankPortfolio.Core.Domain\BankPortfolio.Core.Domain.csproj", "{A9A08A74-4B7F-41D0-8581-79401CF25169}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankPortfolio.Core.Interface", "BankPortfolio.Core.Interface\BankPortfolio.Core.Interface.csproj", "{65B026B1-1C3A-425E-B2AF-742CFF37F2BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankPortfolio.Core.Interface", "BankPortfolio.Core.Interface\BankPortfolio.Core.Interface.csproj", "{65B026B1-1C3A-425E-B2AF-742CFF37F2BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankPortfolio.Adapters.Driving.Console", "BankPortfolio.Adapters.Driving.Console\BankPortfolio.Adapters.Driving.Console.csproj", "{548DE90F-7050-45F4-AA26-9352399B9E68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankPortfolio.Adapters.Driving.Console", "BankPortfolio.Adapters.Driving.Console\BankPortfolio.Adapters.Driving.Console.csproj", "{548DE90F-7050-45F4-AA26-9352399B9E68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankPortfolio.Core.Application", "BankPortfolio.Core.Application\BankPortfolio.Core.Application.csproj", "{0487D0E7-56BA-4747-BA87-35257007ED3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankPortfolio.Core.Application", "BankPortfolio.Core.Application\BankPortfolio.Core.Application.csproj", "{0487D0E7-56BA-4747-BA87-35257007ED3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database Files", "Database Files", "{7695C056-221B-4854-A32C-063C1671798F}"
+	ProjectSection(SolutionItems) = preProject
+		Database Files\Database and Queries.sql = Database Files\Database and Queries.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
